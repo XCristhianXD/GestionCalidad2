@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
 using GestionCalidad.Backend.Data;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -40,6 +41,7 @@ app.UseAuthorization();
 app.MapControllers();
 
 // 🔥 Migraciones automáticas (base de datos en cloud)
+//Hola
 
 
 app.Run();
