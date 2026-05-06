@@ -7,8 +7,7 @@
 bin/
 obj/
 
-# EF Core
-Migrations/
+
 
 # Logs
 *.log
