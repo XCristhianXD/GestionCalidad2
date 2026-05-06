@@ -1,38 +1,14 @@
-## Carpetas de compilación
-bin/
-obj/
-
-## Visual Studio
+# Visual Studio
 .vs/
 *.user
 *.suo
-*.userosscache
-*.sln.docstates
 
-## Rider / VS Code opcional
-.idea/
-.vscode/
+# Build
+bin/
+obj/
 
-## Archivos de sistema
-.DS_Store
-Thumbs.db
-
-## Logs
-*.log
-
-## Archivos temporales
-*.tmp
-*.temp
-
-## Configuración sensible
-appsettings.Development.json
-appsettings.Local.json
-
-## Entity Framework
+# EF Core
 Migrations/
 
-## Otros
-*.cache
-*.pdb
-*.exe
-*.dll
+# Logs
+*.log
